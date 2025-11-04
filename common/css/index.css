@@ -11,16 +11,35 @@ h1 {
     color: #333;
     text-transform: uppercase;
 }
+.bloque1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--widthX);
+    height: var(--heightY);
+    background-color: #8d8d8d;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
 
 
 .gridArea {
     display: grid;
     justify-content: center;
+    align-items: center;
+    
+    place-items: center;
+    padding: 15px; /* margen interno */
+    margin: 15px; /* margen externo */
+    gap: 15px;
 
-    padding: 10px; /* margen interno */
-    margin: 10px; /* margen externo */
-    gap: 10px;
-
+    height: 100%;
     background-color: #aa4242;
     border-radius: 8px;
 
@@ -31,10 +50,11 @@ h1 {
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-auto-rows: auto;
+    place-items: center;
+    /* grid-auto-rows: auto; */
 
-    padding: 4px; /* margen interno */
-    /*margin: 4px; /* margen externo */
+    padding: 5px; /* margen interno */
+    margin: 5px; /* margen externo */
     gap: 10px;
 
     width: var(--widthX);
@@ -85,7 +105,7 @@ h1 {
     align-items: center;
     flex-direction: column;
 
-    width: var(--widthX);
+    /* width: var(--widthX); */
     height: 100%;
     padding: 10px; /* margen interno */
     /*margin: 10px; /* margen externo */
@@ -113,12 +133,3 @@ h1 {
 }
 
 
-.bloque1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: var(--widthX);
-    height: var(--heightY);
-    background-color: #4CAF50;
-    border-radius: 8px;
-}

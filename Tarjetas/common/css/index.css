@@ -1,0 +1,103 @@
+:root{
+    --widthX: 10rem;
+    --heightY: 3rem;
+}
+.body-index{ 
+    display: block;
+    text-align: center; 
+}
+
+h1 {
+    font-size: 48px;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.areaTarjetas{
+    display: flex;
+    background-color: antiquewhite;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.TarjetaCredito{
+    width: 18rem;
+    height: 11rem;
+    background-color: #8000ca;
+    color: white;
+    border-radius: 1rem;
+    /* padding: 1rem; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+.TarjetaCredito{
+    position: relative;
+    transition: 1s ease all;
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    z-index: 1; 
+}
+
+.TarjetaCredito .delantera{
+    cursor: pointer;
+    /* padding: 1rem; */
+    z-index: 3; 
+    width: 18rem;
+    height: 11rem;
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+    background-size: cover !important;
+    position: absolute; 
+    text-align: center;
+    top:0;
+    right: 0;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+}
+
+.TarjetaCredito.active{
+    transform: rotateY(180deg);
+}
+
+.TarjetaCredito .trasera{
+    cursor: pointer;
+    z-index: 2; 
+    width: 18rem;
+    height: 11rem;
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+    background-size: cover !important;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    right:0px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-color: #8000ca;
+    /* padding: 1rem; */
+    
+
+}
+
+
+
+
+
+
+
+
+

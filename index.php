@@ -2,133 +2,37 @@
 <html>
 <head>
   <title>Inicio Plantillas</title>
+  <link rel="stylesheet" href="common/includes/frameworks/bootstrap/css/bootstrap.min.css" >
   <link rel="stylesheet" href="common/css/index.css">
+  <link rel="stylesheet" href="common/includes/frameworks/datatable/responsive-2.3.0/css/responsive.bootstrap5.min.css">
+  <link rel="stylesheet" href="common/includes/frameworks/bootstrap/bootstrap-icons-1.10.3/bootstrap-icons.css">
+
   <meta name="robots" content="noindex, follow">
 </head>
   <body>
-    
     <div class="body-index" >
-        <div class="loginScreen">
-          <h1>Plantilla GRID Y FLEX</h1>
+      <div class="loginScreen">
+        <h1>Plantillas</h1>
+      </div>
+      <div class="gridArea">
+        <div class="card">
+          <a class="flexBloque" href="Paginas/FlexGrid/FlexGrid.php">Flex and Grid</a>
         </div>
-        <div class="gridArea">
-          <a class="flexBloque" href="Menus/index.php">MENUS</a>
-          <a class="flexBloque" href="Tarjetas/Tarjetas.php">Tarjetas</a>
+        <div class="card">
+          <a class="flexBloque" href="Paginas/Tarjetas/Tarjetas.php">Tarjetas</a>
         </div>
-        <div class="gridArea">
-          <div class="gridBloque">Grid Bloque 1</div>
-          <div class="gridBloque">Grid Bloque 2</div>
-          <div class="gridBloque">Grid Bloque 3</div>
-          <div class="gridBloque">Grid Bloque 4</div>
-          <div class="gridBloque">Grid Bloque 5</div>
-          <div class="gridBloque">
-            <div class="grid1">grid 1</div>
-            <div class="grid1">grid 2</div>
-            <div class="grid1">grid 3</div>
-          </div>
+        <div class="card">
+          <a class="flexBloque" href="Paginas/Botones/Botones.php">Botones</a>
         </div>
-
-        <div class="gridArea">
-          <div class="gridBloque">Grid Bloque 1</div>
-          <div class="gridBloque">Grid Bloque 2</div>
-          <div class="gridBloque">Grid Bloque 3</div>
-          <div class="gridBloque">Grid Bloque 4</div>
-          <div class="gridBloque">Grid Bloque 5</div>
-          <div class="gridBloque">
-            <div class="flex1">flex 1</div>
-            <div class="flex1">flex 2</div>
-            <div class="flex1">flex 3</div>
-          </div>
-        </div>
-
-        <div class="gridArea">
-          <div class="flexBloque">Flex Bloque 1</div>
-          <div class="flexBloque">Flex Bloque 2</div>
-          <div class="flexBloque">Flex Bloque 3</div>
-          <div class="flexBloque">Flex Bloque 4</div>
-          <div class="flexBloque">Flex Bloque 5</div>
-          <div class="flexBloque">
-            <div class="grid1">grid 1</div>
-            <div class="grid1">grid 2</div>
-            <div class="grid1">grid 3</div>
-          </div>
-        </div>
-
-        <div class="gridArea">
-          <div class="flexBloque">Flex Bloque 1</div>
-          <div class="flexBloque">Flex Bloque 2</div>
-          <div class="flexBloque">Flex Bloque 3</div>
-          <div class="flexBloque">Flex Bloque 4</div>
-          <div class="flexBloque">Flex Bloque 5</div>
-          <div class="flexBloque">
-            <div class="flex1">flex 1</div>
-            <div class="flex1">flex 2</div>
-            <div class="flex1">flex 3</div>
-          </div>
-        </div>
-        
-        <div class="flexArea">
-          <div class="gridBloque">Grid Bloque 1</div>
-          <div class="gridBloque">Grid Bloque 2</div>
-          <div class="gridBloque">Grid Bloque 3</div>
-          <div class="gridBloque">Grid Bloque 4</div>
-          <div class="gridBloque">Grid Bloque 5</div>
-          <div class="gridBloque">
-            <div class="grid1">grid 1</div>
-            <div class="grid1">grid 2</div>
-            <div class="grid1">grid 3</div>
-          </div>
-        </div>
-        
-        <div class="flexArea">
-          <div class="gridBloque">Grid Bloque 1</div>
-          <div class="gridBloque">Grid Bloque 2</div>
-          <div class="gridBloque">Grid Bloque 3</div>
-          <div class="gridBloque">Grid Bloque 4</div>
-          <div class="gridBloque">Grid Bloque 5</div>
-          <div class="gridBloque">
-            <div class="flex1">Flex 1</div>
-            <div class="flex1">Flex 2</div>
-            <div class="flex1">Flex 3</div>
-          </div>
-        </div>
-
-
-
-<div class="flexArea">
-          <div class="flexBloque">Flex Bloque 1</div>
-          <div class="flexBloque">Flex Bloque 2</div>
-          <div class="flexBloque">Flex Bloque 3</div>
-          <div class="flexBloque">Flex Bloque 4</div>
-          <div class="flexBloque">Flex Bloque 5</div>
-          <div class="flexBloque">
-            <div class="grid1">grid 1</div>
-            <div class="grid1">grid 2</div>
-            <div class="grid1">grid 3</div>
-          </div>
-        </div>
-
-
-
-
-
-
-
-        <div class="flexArea">
-          <div class="flexBloque">Flex Bloque 1</div>
-          <div class="flexBloque">Flex Bloque 2</div>
-          <div class="flexBloque">Flex Bloque 3</div>
-          <div class="flexBloque">Flex Bloque 4</div>
-          <div class="flexBloque">Flex Bloque 5</div>
-          <div class="flexBloque">
-            <div class="flex1">Flex 1</div>
-            <div class="flex1">Flex 2</div>
-            <div class="flex1">Flex 3</div>
-          </div>
-        </div>
-
-        
-
+      </div>
     </div>
+
+    <script type="text/javascript" src="common/includes/frameworks/vanillaTilt/raw.githubusercontent.com_micku7zu_vanilla-tilt.js_master_dist_vanilla-tilt.js"></script>
+    <script src="common/includes/frameworks/jquery/jquery-3.3.1.min.js"></script>
+    <script src="common/includes/frameworks/jquery/navbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="common/includes/frameworks/jqueryUi/jquery-ui.js"></script>
+
+    <script src="common/includes/frameworks/bootstrap/js/bootstrap.min.js"></script>
+    <script src="common/js/index.js"></script>
   </body>
 </html>

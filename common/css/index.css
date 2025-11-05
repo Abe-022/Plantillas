@@ -1,6 +1,7 @@
 :root{
     --widthX: 10rem;
     --heightY: 3rem;
+    --radius: 8px;
 }
 .body-index{ 
     display: block;
@@ -18,87 +19,25 @@ h1 {
     width: var(--widthX);
     height: var(--heightY);
     background-color: #8d8d8d;
-    border-radius: 8px;
+    border-radius: var(--radius);
 }
-
-
-
-
-
-
-
-
-
 .gridArea {
     display: grid;
     justify-content: center;
     align-items: center;
     
     place-items: center;
-    padding: 15px; /* margen interno */
+    padding: 30px; /* margen interno */
     margin: 15px; /* margen externo */
     gap: 15px;
 
     height: 100%;
-    background-color: #aa4242;
-    border-radius: 8px;
+    background-color: #e2e2e2;
+    border-radius: var(--radius);
 
     grid-template-columns: repeat(auto-fill, minmax(var(--widthX),var(--heightY)));
-    box-shadow:  5px 5px 5px #d4d4d4;
+    box-shadow:  var(--radius) var(--radius) 5px #d4d4d4;
 }
-.gridBloque {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    place-items: center;
-    /* grid-auto-rows: auto; */
-
-    padding: 5px; /* margen interno */
-    margin: 5px; /* margen externo */
-    gap: 10px;
-
-    width: var(--widthX);
-    height: 100%;
-    background-color: #db6cc0;
-    border-radius: 8px;
-    grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
-}
-.grid1 {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    
-    padding: 4px; /* margen interno */
-    /*margin: 4px; /* margen interno */
-    gap: 10px;
-    
-    /* transform: translate(-8px, -8px); */
-    /*width: 50px;*/
-    height: 100%;
-    background-color: #eebdea;
-    border-radius: 8px;
-    grid-template-columns: repeat(auto-fill, minmax(50px,1fr));
-}
-
-
-
-.flexArea {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-items: stretch;
-    flex-direction: row ;
-    flex-wrap:wrap ;
-    
-    padding: 10px; /* margen interno */
-    margin: 10px; /* margen externo */
-    gap: 10px;
-
-    background-color: #0d3d13;
-    border-radius: 8px;
-    box-shadow:  5px 5px 5px #d4d4d4;
-}
-
 .flexBloque {
     display: flex;
     justify-content: center;
@@ -109,27 +48,10 @@ h1 {
     height: 100%;
     padding: 10px; /* margen interno */
     /*margin: 10px; /* margen externo */
-
-    background-color: #18d184;
-    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #464646;
+    border-radius: var(--radius);
     gap: 10px;
 }
-
-.flex1 {
-    order: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-    
-    padding: 10px; /* margen interno */
-    /*margin: 10px; /* margen externo */
-
-    background-color: #67e49f;
-
-    border-radius: 8px;
-    gap: 10px;
-}
-
-

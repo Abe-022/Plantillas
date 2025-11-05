@@ -5,18 +5,18 @@
 <html>
 <head>
   <title>Inicio Plantillas</title>
-  <link rel="stylesheet" href="common/css/index.css">
+  <link rel="stylesheet" href="common/css/tarjetas.css">
   
-  <link rel="stylesheet" href="../common/includes/frameworks/bootstrap/css/bootstrap.min.css" >
-  <link rel="stylesheet" href="../common/includes/frameworks/bootstrap/bootstrap-icons-1.10.3/bootstrap-icons.css">
+  <link rel="stylesheet" href="../../common/includes/frameworks/bootstrap/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="../../common/includes/frameworks/bootstrap/bootstrap-icons-1.10.3/bootstrap-icons.css">
   <meta name="robots" content="noindex, follow">
 </head>
   <body>
     
     <div class="body-index">
         <div class="Titulo">
+          <button id="regresar" type="button" class="btn btn-secondary">Regresar</button>
           <h1>tarjetas</h1>
-          
         </div>
         <div id="areaTarjetas" class="areaTarjetas">
 
@@ -45,8 +45,9 @@
     </div>
 
     
-        <script src="../common/includes/frameworks/jquery/jquery-3.3.1.min.js"></script>
-        <script src="../common/includes/frameworks/jqueryUi/jquery-ui.js"></script>
-    <script src="common/js/tarjetas.js"></script>
+    <script src="../../common/includes/frameworks/jquery/jquery-3.3.1.min.js"></script>
+    <script src="../../common/includes/frameworks/jqueryUi/jquery-ui.js"></script>
+    
+    <script src ="common/js/tarjetas.js"></script>
   </body>
 </html>

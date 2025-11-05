@@ -5,6 +5,7 @@
 .body-index{ 
     display: block;
     text-align: center; 
+    padding : 1rem;
 }
 
 h1 {
@@ -90,8 +91,6 @@ h1 {
     transform: rotateY(180deg);
     background-color: #8000ca;
     /* padding: 1rem; */
-    
-
 }
 
 .FormularioTarjeta{

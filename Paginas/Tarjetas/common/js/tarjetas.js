@@ -1,3 +1,11 @@
+$("#regresar").on("click", function(){
+    regresarPagina();
+});
+
+function regresarPagina() {
+    window.location.href = "../../index.php";
+}
+
 const tarjeta = $(".TarjetaCredito");
 $(".tarjeta ").on("click", function(){
     tarjeta.toggleClass("active");

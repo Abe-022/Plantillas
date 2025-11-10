@@ -1,6 +1,3 @@
-<?php
-    $imagenDelatera="";
-?> 
 <!DOCTYPE html>
 <html>
 <head>

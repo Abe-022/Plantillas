@@ -16,6 +16,9 @@
       </div>
       <div class="gridArea">
         <div class="card">
+          <a class="flexBloque" href="Paginas/InicioSesion/InicioSesion.php">Inicio de Sesion</a>
+        </div>
+        <div class="card">
           <a class="flexBloque" href="Paginas/FlexGrid/FlexGrid.php">Flex and Grid</a>
         </div>
         <div class="card">
